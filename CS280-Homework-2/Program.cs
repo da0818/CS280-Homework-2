@@ -25,7 +25,7 @@ namespace CS280_Homework_2
             }
             catch (Exception e)
             {
-                Console.WriteLine("數字輸入錯誤");
+                Console.WriteLine("編號輸入錯誤");
                 Console.WriteLine("錯誤訊息:\n" + e.ToString());
                 return;
             }
@@ -37,7 +37,7 @@ namespace CS280_Homework_2
             }
             catch (Exception e)
             {
-                Console.WriteLine("數字輸入錯誤");
+                Console.WriteLine("身高輸入錯誤");
                 Console.WriteLine("錯誤訊息:\n" + e.ToString());
                 return;
             }
@@ -49,7 +49,7 @@ namespace CS280_Homework_2
             }
             catch (Exception e)
             {
-                Console.WriteLine("數字輸入錯誤");
+                Console.WriteLine("體重輸入錯誤");
                 Console.WriteLine("錯誤訊息:\n" + e.ToString());
                 return;
             }
