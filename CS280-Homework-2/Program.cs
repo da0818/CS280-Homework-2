@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CS280_Homework_1._2;
 
 namespace CS280_Homework_2
 {
@@ -10,6 +11,7 @@ namespace CS280_Homework_2
     {
         private static void Main(string[] args)
         {
+            Pokemon pokemon = new Pokemon();
             Console.WriteLine("請輸入一隻Pokemon");
 
             Console.Write("請輸入Name:");
